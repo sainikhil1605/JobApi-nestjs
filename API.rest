@@ -1,0 +1,22 @@
+
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/api/v1/login
+Content-Type: application/json
+
+{
+  
+  "email": "ok4@gmail.com",
+  "password":"ok"
+}
+###
+
+POST http://localhost:3000/api/v1/signup
+Content-Type: application/json
+
+{
+  "name":"okok",  
+  "email": "ok5@gmail.com",
+  "password":"ok"
+}
